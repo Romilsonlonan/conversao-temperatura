@@ -5,3 +5,8 @@ RUN npm install
 COPY . .
 EXPOSE 8080
 CMD ["node", "server.js"]
+
+# CONTAINER ID   IMAGE                                    COMMAND                  CREATED        STATUS                      PORTS     NAMES
+# 57cd45ab3e03   romilsonlonan/conversao-temperatura:v1   "docker-entrypoint.s…"   13 hours ago   Exited (137) 12 hours ago             thirsty_davinci
+# "Image": "sha256:94bc3faaef32f87c95defb32529ede36a986b9f68c9d2586bddfd6101bcaf493" 
+
